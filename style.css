@@ -178,7 +178,34 @@ html {
 
 .change .hamburger-menu {
   right: 33rem;
+  
 }
+.hero-logo {
+  margin-bottom: 2rem;
+}
+
+.hero-logo img {
+  width: 12rem;
+  height: auto;
+  filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.6));
+}
+/* .hero-logo img {
+  filter: brightness(0) invert(1);
+} */
+
+.nav-logo {
+  position: absolute;
+  top: 4rem;
+  left: 5rem;
+  z-index: 200;
+}
+
+.nav-logo img {
+  width: 10rem;
+  height: auto;
+}
+
+
 
 .line {
   width: 100%;
