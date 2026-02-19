@@ -277,14 +277,17 @@ html {
 .img-wrapper {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   overflow: hidden;
+ 
+
 }
 
 .img-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+ 
   opacity: 0.5;
   animation: scale 25s;
 }
@@ -661,7 +664,7 @@ html {
     url(images/contact-bg.jpg) center no-repeat;
   background-size: cover;
 }
-
+ 
 .contact-right {
   width: 65%;
   background-color: #eee;
@@ -988,8 +991,14 @@ html {
   html {
     font-size: 60%;
   }
- 
+ .img-wrapper img {
+  width: 150%;
+  opacity: 0.4;
 
+ }
+.img-wrapper{
+  background: linear-gradient(to left, rgb(0, 0, 0),rgb(0, 0, 0));
+}
   .sidebar {
     width: 100%;
     right: -100%;
