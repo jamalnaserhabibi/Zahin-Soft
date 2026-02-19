@@ -303,7 +303,9 @@ html {
   top: 30%;
   left: 15%;
 }
-
+.banner .slagon{
+  text-align: center;
+}
 .banner h1 {
   font-family: "Baloo Da 2", serif;
   font-size: 8rem;
@@ -984,8 +986,9 @@ html {
 
 @media (max-width: 500px) {
   html {
-    font-size: 50%;
+    font-size: 60%;
   }
+ 
 
   .sidebar {
     width: 100%;
